@@ -1,0 +1,256 @@
+
+@media (max-width:1200px){
+    .nav-wrap .nav-contant{
+        width: 50%;
+    }
+
+    .hero-section .hero-contant .btn {
+        padding: 1rem 0rem 1rem 1rem;
+    }
+
+    .hero-section .hero-contant .btn-second {
+        padding: 1rem 1rem 1rem 0rem;
+    }
+
+    .hero-section .hero-image {
+        width: 50%;
+    }
+
+    .discount .subscribe-btn {
+        right: 1rem;
+    }
+}
+
+@media (max-width:992px) {
+    :root {
+        font-size: 14px;
+    }
+
+    .nav-wrap .nav-topRight {
+        width: 20%;
+    }
+
+    .nav-wrap nav .nav-contant {
+        display: none;
+    }
+
+    .nav-wrap .right .nav-contant {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 30% auto;
+    }
+    .nav-wrap .right .nav-contant .nav-item {
+        margin-bottom: 2rem;
+    }
+
+    nav .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .nav-wrap .hero-section {
+        flex-direction: column-reverse;
+    }
+
+    .hero-section .hero-image ,.hero-section .hero-contant  {
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .hero-section .hero-contant .btn {
+        padding: 1rem 0rem 1rem 3rem;
+    }
+
+    .hero-section .hero-contant .btn-second {
+        padding: 1rem 3rem 1rem 0rem;
+    }
+
+    .nav-wrap .bullets  {
+        display: none;
+    }
+
+    .delivere .backimg1 {
+        z-index: -1;
+    }
+
+    .timeMeal {
+        justify-content: center;
+    }
+
+    .Popular-Products .card {
+        width: 30%;
+        margin: 6rem auto 0;
+    }
+
+    .delivere .product .product-img {
+        width: 25%;
+    }
+
+    .popular-menu .card {
+        width: 45%;
+     }
+
+     .discount .container {
+        width: 80%;
+    }
+
+    .delivere .coffebg  {
+        width: 15rem;
+        right: 0;
+    }
+
+    .discount .subscribe-btn {
+        right: 0;
+    }
+}
+
+@media (max-width:768px) {
+    .container {
+        width: 90%;
+    }
+
+    .popular-menu .container .back-img {
+        display: none;
+    }
+
+    .nav-wrap .nav-topRight {
+        width: 30%;
+    }
+
+    .right {
+        width: 40%;
+        right: -40%;
+    }
+    
+
+    .Popular-Products .card {
+        width: 40%;
+    }
+
+    .delivere .get-delivere h2 {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+
+    .delivere .get-delivere p {
+        padding: 0;
+    }   
+
+    .download-app .container {
+        flex-direction: column;
+    }
+
+    .download-app .phone-img {
+        width: 70%;
+    }
+    
+    .download-app .app-contant {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .download-app .app-contant h2 {
+        padding: 0;
+    }
+
+    .testimonial .heading .shap {
+        margin: 0 auto  ;
+    }
+
+    .testimonial .card {
+        width: 70%;
+        margin: 6rem auto 0;
+    }
+
+    .testimonial .cards:last-child {
+        margin-bottom: 8rem;
+    }
+
+    .discount .email-input {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    
+    .discount .subscribe-btn {
+        width: 100%;
+        text-align: center;
+    }
+
+}
+
+@media (max-width:576px) {
+    .nav-wrap .nav-topRight {
+        width: 40%;
+    }
+
+    .right {
+        width: 50%;
+        right: -50%;
+    }
+
+    .nav-wrap .right .nav-contant {
+        margin: 40% auto;
+    }
+    
+    
+    .Popular-Products .card {
+        width: 80%;
+    }
+
+    .Popular-Products .card .btn-card {
+        width: 60%;
+    }
+
+    .delivere .container {
+        flex-direction: row-reverse;
+    }
+
+    .delivere .get-delivere {
+        width: 100%;
+        order: 1;
+    }
+
+    .delivere .products-type {
+        margin: 4rem auto 0;
+        width:50%;
+        order: 2;
+     }
+
+     .delivere .product-cursor {
+        order: 2;
+     }
+
+     .popular-menu .card {
+        width: 100%;
+     }
+
+     footer .yannal {
+        width: 80%;
+        margin-right: 0;
+    }
+
+    footer .yannal {
+        margin: 0 auto 2rem auto;
+    }
+
+    footer .yannal .social-media {
+        width: 50%;
+    }
+
+    footer .Contact{
+        width: 100%;
+    }
+
+    footer .Support,
+    .Info {
+        display: none;
+    }
+
+    .discount .shap {
+        margin: 0 auto;
+    }
+}

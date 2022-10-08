@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="khaled Ramadan" />
+    <link rel="icon" href="images/kr2.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <title>Kababs By Khaled</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaQuery.css">
+</head>
+
+<body>
+    <section class="nav-wrap" id="home">
+        <nav class="container-fluid flex posRelative">
+            <div class="logo"><a href="#"><img src="images/yannal.svg" alt="yannal logo"></a></div>
+            <ul class="nav-contant flex">
+                <li class="nav-item"><a href="#Pmenu">menu</a></li>
+                <li class="nav-item"><a href="#about">about us</a></li>
+                <li class="nav-item"><a href="#testimonial">our specials</a></li>
+                <li class="nav-item"><a href="#location">our locations</a></li>
+                <li class="nav-item"><a href="#footer">our cheffs</a></li>
+            </ul>
+            <div class="nav-topRight flex">
+                <div class="searchIcon"><a href="#"><img src="./images/search.svg" alt="search"></a></div>
+                <div class="basketIcon posRelative">
+                    <a href="#"><img src="./images/basket.svg" alt="basket"></a>
+                    <span class="b-radius50 flex-center ">2</span>
+                </div>
+                <div class="personIcon"><a href="#"><img src="./images/person.svg" alt="person"></a></div>
+                <div class="menu" id="menu">
+                    <span id="first"></span>
+                    <span id="mid"></span>
+                    <span id="last"></span>
+                </div>
+                <aside class="right" id="right">
+                </aside>
+            </div>
+        </nav>
+
+        
+        <div class="loader"></div>
+        <div class="hero-section container-fluid flex posRelative hide">
+            <div class="bullets">
+                <div class="bulle1"><a href="#"><img src="./images/Pagination Circle.svg" alt=""></a></div>
+                <div class="bulle2"><a href="#"><img src="./images/Pagination Circle.svg" alt=""></a></div>
+                <div class="bulle3"><a href="#"><img src="./images/Pagination Circle.svg" alt="" class="active"></a>
+                </div>
+                <div class="bulle4"><a href="#"><img src="./images/Pagination Circle.svg" alt=""></a></div>
+                <div class="bulle5"><a href="#"><img src="./images/Pagination Circle.svg" alt=""></a></div>
+            </div>
+            <div class="hero-contant">
+                <h2>Now taking online ordres</h2>
+                <h1>kababs</h1>
+                <p>Restaurant style Yogurt M    int Sauce is delicious dip which is quick and easy to ...
+                    This is a standard Indian mint chutney served with poppadums along with mint and lemon.</p>
+                <div class="btnflex">
+                    <button class="btn btn-main posRelative">Add To Cart</button>
+                    <button class="btn btn-second posRelative">Book a Table</button>
+                </div>
+                <div class="timeMeal flex">
+                    <div class="meal lunch">
+                        <h4>Lunch</h4>
+                        <p>1:00-03:00pm</p>
+                    </div>
+                    <div class="meal dinner">
+                        <h4>Dinner</h4>
+                        <p>7:00-10:00pm</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image posRelative">
+                <img src="images/Leaves Overaly.png" alt="Leaves Overaly">
+                <h3 class="price"><small>$</small>14.97</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="Popular-Products marginSection posRelative hide">
+        <div class="back-img"><img src="./images/back1png.png" alt=""></div>
+        <div class="heading">
+            <h3>Online Store</h3>
+            <h2>Popular Products</h2>
+            <div class="shap"><img src="./images/Shape.png" alt="line"></div>
+        </div>
+
+        <div class="container">
+            <div class="cards flex">
+                <div class="card">
+                    <div class="product-img"><img src="./images/PopularProducts/1.png" alt="Chinese"></div>
+                    <div class="Product-rate"><img src="./images/Rating.svg" alt="Rating"></div>
+                    <p>Chinese</p>
+                    <h3>Hot Wings</h3>
+                    <div class="btn-card"><button class="btn">Add to Cart<span>$14.00</span></button></div>
+                </div>
+                <div class="card">
+                    <div class="product-img"><img src="./images/PopularProducts/2.png" alt="Indian Style"></div>
+                    <div class="Product-rate"><img src="./images/Rating.svg" alt="Rating"></div>
+                    <p>Indian Style</p>
+                    <h3>Rice with Curry</h3>
+                    <div class="btn-card"><button class="btn">Add to Cart<span>$22.00</span></button></div>
+                </div>
+                <div class="card">
+                    <div class="product-img"><img src="./images/PopularProducts/3.png" alt="Pakistani Style"></div>
+                    <div class="Product-rate"><img src="./images/Rating2.svg" alt="Rating"></div>
+                    <p>Pakistani Style</p>
+                    <h3>Chapatees</h3>
+                    <div class="btn-card"><button class="btn">Add to Cart<span>$18.00</span></button></div>
+                </div>
+                <div class="card">
+                    <div class="product-img"><img src="./images/PopularProducts/4.png" alt="Western Style"></div>
+                    <div class="Product-rate"><img src="./images/Rating3.svg" alt="Rating"></div>
+                    <p>Western Style</p>
+                    <h3>Sweetdish</h3>
+                    <div class="btn-card"><button class="btn">Add to Cart<span>$16.00</span></button></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="delivere marginSection posRelative hide" id="location">
+
+        <div class="container flex">
+            <div class="products-type">
+                <div class="product flex active posRelative">
+                    <div class="product-img"><img src="./images/coffe.png" alt=""></div>
+                    <span>Coffee</span>
+                </div>
+                <div class="product flex posRelative">
+                    <div class="product-img"><img src="./images/fast.png" alt=""></div>
+                    <span>Fast Food</span>
+                </div>
+                <div class="product flex posRelative">
+                    <div class="product-img"><img src="./images/pizza.png" alt=""></div>
+                    <span>Pizza</span>
+                </div>
+                <div class="product flex posRelative">
+                    <div class="product-img"><img src="./images/pro3.png" alt=""></div>
+                    <span>Desi Menu</span>
+                </div>
+                <div class="product flex posRelative">
+                    <div class="product-img"><img src="./images/Desserts.png" alt=""></div>
+                    <span>Desserts</span>
+                </div>
+            </div>
+
+            <div class="product-cursor posRelative">
+                <div class="tap"></div>
+            </div>
+
+            <div class="get-delivere posRelative">
+                <div class="threePoint"><img src="./images/threePoint.svg" alt=""></div>
+                <div class="backimg1"><img src="./images/Decor.png" alt=""></div>
+                <div class="backimg2"><img src="./images/back2.png" alt=""></div>
+                <div class="coffebg"><img src="./images/Coffee Cup.png" alt=""></div>
+                <div class="fast-img"><img src="./images/fast food card.png" alt="fast food"></div>
+                <h2>Get delivered while it is still hot.</h2>
+                <p>Bring together your discussions memberships and content.
+                    Start your 7-day free trial.</p>
+                <div class="btn-deliverey posRelative"><button class="btn btn-main posRelative">GET STARTED</button></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="popular-menu posRelative marginSection hide" id="Pmenu ">
+        <div class="back-img"><img src="./images/Decore.png" alt=""></div>
+        <div class="heading">
+            <h3>Popular Menu</h3>
+            <h2>Amazing Food Served With Delicacy</h2>
+        </div>
+
+        <div class="container posRelative">
+            <div class="back-img"><img src="./images/Decore (1).png" alt=""></div>
+            <div class="cards flex">
+                <div class="card">
+                    <div class="dish-img"><img src="./images/dishes/Dish1.png" alt="Dishim with Fries and Sause"></div>
+                    <div class="dish-rate"><img src="./images/Rating3.svg" alt="Rating"></div>
+                    <h3>Dishim with Fries and Sause</h3>
+                    <p>Lorem Ipsum Lorem Ipsum is simply and dummy text of the printing.</p>
+                    <div class="price flex">
+                        <p>$7.10</p>
+                        <div class="social-btn">
+                            <button class="sbtn hart"><img src="./images/hart.svg" alt="Favorite icon"></button>
+                            <button class="sbtn shar"><img src="./images/share.svg" alt="Share icon"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="dish-img"><img src="./images/dishes/Dish2.png" alt="Chicken Hot Wings"></div>
+                    <div class="dish-rate"><img src="./images/Rating3.svg" alt="Rating"></div>
+                    <h3>Chicken Hot Wings</h3>
+                    <p>Lorem Ipsum Lorem Ipsum is simply and dummy text of the printing.</p>
+                    <div class="price flex">
+                        <p>$6.40</p>
+                        <div class="social-btn">
+                            <button class="sbtn hart"><img src="./images/hart.svg" alt="Favorite icon"></button>
+                            <button class="sbtn shar"><img src="./images/share.svg" alt="Share icon"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="dish-img"><img src="./images/dishes/Dish3.png" alt="Samosas with Green Chatni"></div>
+                    <div class="dish-rate"><img src="./images/Rating3.svg" alt="Rating"></div>
+                    <h3>Samosas with Green Chatni</h3>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                    <div class="price flex">
+                        <p>$4.80</p>
+                        <div class="social-btn">
+                            <button class="sbtn hart"><img src="./images/hart.svg" alt="Favorite icon"></button>
+                            <button class="sbtn shar"><img src="./images/share.svg" alt="Share icon"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="dish-img"><img src="./images/dishes/Dish4.png" alt="Sweet Sawaiyan"></div>
+                    <div class="dish-rate"><img src="./images/Rating3.svg" alt="Rating"></div>
+                    <h3>Sweet Sawaiyan</h3>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                    <div class="price flex">
+                        <p>$5.10</p>
+                        <div class="social-btn">
+                            <button class="sbtn hart"><img src="./images/hart.svg" alt="Favorite icon"></button>
+                            <button class="sbtn shar"><img src="./images/share.svg" alt="Share icon"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="dish-img"><img src="./images/dishes/Dish5.png" alt="Fried Raw Fish"></div>
+                    <div class="dish-rate"><img src="./images/Rating3.svg" alt="Rating"></div>
+                    <h3>Fried Raw Fish</h3>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                    <div class="price flex">
+                        <p>$3.60</p>
+                        <div class="social-btn">
+                            <button class="sbtn hart"><img src="./images/hart.svg" alt="Favorite icon"></button>
+                            <button class="sbtn shar"><img src="./images/share.svg" alt="Share icon"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="dish-img"><img src="./images/dishes/Dish6.png" alt="Brakefast with Half Fried Egg"></div>
+                    <div class="dish-rate"><img src="./images/Rating3.svg" alt="Rating"></div>
+                    <h3>Brakefast with Half Fried Egg</h3>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                    <div class="price flex">
+                        <p>$6.40</p>
+                        <div class="social-btn">
+                            <button class="sbtn hart"><img src="./images/hart.svg" alt="Favorite icon"></button>
+                            <button class="sbtn shar"><img src="./images/share.svg" alt="Share icon"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="seeAll-btn">
+                <button class="btn btn-main posRelative">See All Menu <span class="btn-arrow posRelative"><span class="arrow"></span></span></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="download-app marginSection posRelative hide" id="about">
+        <div class="container flex posRelative">
+            <div class="phone-img posRelative">
+                <img src="./images/Mobile.png" alt="Mobile">
+                <div class="back-img"><img src="./images/Decore (2).png" alt=""></div>
+
+            </div>
+            <div class="app-contant">
+                <h3>Download Our App</h3>
+                <h2>It’s all here.
+                    All in one app.
+                </h2>
+                <p>Discover local, on-demand delivery or Pickup from restaurants,
+                    nearby grocery and convenience stores, and more.</p>
+                <div class="app-btn flex">
+                    
+                    <div class='down-btn'><button><img src="./images/button-App store.png" alt="button-App"></button></div>
+                    <div class='down-btn'><button><img src="./images/button-Play store.png" alt="button-Play"></button></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial marginSection hide" id="testimonial">
+        <div class="heading">
+            <h3>Testimonial</h3>
+            <h2>What they saying</h2>
+            <div class="shap"><img src="./images/Shape.png" alt="line"></div>
+        </div>
+
+        <div class="container flex">
+            <div class="cards flex">
+                <div class="card flex">
+                    <div class="person-img"><img src="./images/person1.png" alt=""></div>
+                    <div class="test-contant">
+                        <h4>Natasha Malik</h4>
+                        <p>California</p>
+                        <div class="test-rate"><img src="./images/Rating3.svg" alt="Rating"></div>
+                        <p>“Him rendered may attended concerns jennings reserved now.
+                            <span>Sympathize</span> did now preference unpleasing mrs few.
+                            Mrs for <span>hour game</span> room want are fond dare.
+                            For detract charmed add talking age.
+                            Shy <span>resolution instrument</span> unreserved man few mr at discretion reasonable.
+                            Age out full gate bed day lose.”
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card flex">
+                    <div class="person-img"><img src="./images/person2.png" alt=""></div>
+                    <div class="test-contant">
+                        <h4>AR Shakir</h4>
+                        <p>Arizona</p>
+                        <div class="test-rate"><img src="./images/Rating3.svg" alt="Rating"></div>
+                        <p>“Out believe has request not how comfort evident.
+                            Up <span>delight cousins</span> we feeling minutes.
+                            Genius has looked end piqued spring.
+                            Down has rose feel find man.
+                            Learning day desirous informed expenses material returned six the.
+                            She <span>enabled</span> invited exposed him another.
+                            <span>Reasonably conviction</span> solicitude me mr at discretion reasonable.
+                            Age out full gaReasonably convictionReasonably convictionte bed day lose.”
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="posRelative hide" id="footer">
+        <section class="discount">
+            <div class="container">
+                <h3>Get special Discounts</h3>
+                <div class="shap"><img src="./images/Shape.png" alt="line"></div>
+                <p>Input email address and complete your subscription to get our special offer.</p>
+                <div class="Subscribe flex">
+                    <div class="email-input"><input type="email" name="" id="" placeholder="Enter Your Email"></div>
+                    <div class="subscribe-btn">
+                        <!-- <button><img src="./images/Subscribe.png" alt="Subscribe"></button> -->
+                        <button class="sub-btn">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container">
+            <div class="footer-contant flex">
+                <div class="yannal">
+                    <div class="logo"><img src="./images/footer-logo.png" alt=""></div>
+                    <div class="social-media flex">
+                        <a href="#"><img src="./images/facebook-icon.svg" alt="faceBook"></a>
+                        <a href="#"><img src="./images/twitter-icon.svg" alt="twitter"></a>
+                        <a href="#"><img src="./images/instagram-icon.svg" alt="instagram"></a>
+                        <a href="#"><img src="./images/linkedin-icon.svg" alt="linkedin"></a>
+                    </div>
+                </div>
+                <div class="Contact">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li class="flex">
+                            <div class="location-icon"><img src="./images/Location.svg" alt="location"></div>
+                            <p>F1 - 320 Jeff Heights, Main Blvd, 
+                                Gulberg, Lahore, Pakistan</p>
+                        </li>
+                        <li class="flex">
+                            <div class="phone-icon"><img src="./images/call.svg" alt="phone"></div>
+                            <p>+92 - 300 - 115 - 222 -444 </p>
+                        </li>
+                        <li class="flex">
+                            <div class="SMS-icon"><img src="./images/SMS.svg" alt="SMS"></div>
+                            <p>support@yannal.com</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="Support">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Faq</a></li>
+                        <li><a href="#">Shipping & Returns</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Our Partners</a></li>
+                    </ul>
+                </div>
+                <div class="Info">
+                    <h4>Info</h4>
+                    <ul>
+                        <li><a href="#">Dates</a></li>
+                        <li><a href="#">Parties</a></li>
+                        <li><a href="#">Brithdays</a></li>
+                        <li><a href="#">Menu</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+            <p class="copyRight">©2021 Yannal Resturant</p>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
