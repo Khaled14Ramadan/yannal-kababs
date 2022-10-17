@@ -13,12 +13,13 @@
         href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&family=Poppins:wght@400;500;600;700&display=swap"
         rel="stylesheet">
     <title>Kababs By Khaled</title>
+    <link rel="stylesheet" href="./css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/mediaQuery.css">
 </head>
 
 <body>
-    <section class="nav-wrap" id="home">
+    <header class="nav-wrap" id="home">
         <nav class="container-fluid flex posRelative">
             <div class="logo"><a href="#"><img src="images/yannal.svg" alt="yannal logo"></a></div>
             <ul class="nav-contant flex">
@@ -47,6 +48,7 @@
 
         
         <div class="loader"></div>
+
         <div class="hero-section container-fluid flex posRelative hide">
             <div class="bullets">
                 <div class="bulle1"><a href="#"><img src="./images/Pagination Circle.svg" alt=""></a></div>
@@ -81,8 +83,9 @@
                 <h3 class="price"><small>$</small>14.97</h3>
             </div>
         </div>
-    </section>
+    </header>
 
+    <!-- Start Popular-Products -->
     <section class="Popular-Products marginSection posRelative hide">
         <div class="back-img"><img src="./images/back1png.png" alt=""></div>
         <div class="heading">
@@ -124,7 +127,9 @@
             </div>
         </div>
     </section>
+    <!-- End Popular-Products -->
 
+    <!-- Start delivere -->
     <section class="delivere marginSection posRelative hide" id="location">
 
         <div class="container flex">
@@ -159,7 +164,13 @@
                 <div class="threePoint"><img src="./images/threePoint.svg" alt=""></div>
                 <div class="backimg1"><img src="./images/Decor.png" alt=""></div>
                 <div class="backimg2"><img src="./images/back2.png" alt=""></div>
-                <div class="coffebg"><img src="./images/Coffee Cup.png" alt=""></div>
+
+                <div class="coffebg "><img src="./images/Coffee Cup.png" alt=""></div>
+                <div class="coffebg dish hide"><img src="./images/dishes/Dish3.png" alt=""></div>
+                <div class="coffebg dish hide"><img src="./images/dishes/Dish1.png" alt=""></div>
+                <div class="coffebg dish hide"><img src="./images/dishes/Dish4.png" alt=""></div>
+                <div class="coffebg dish hide"><img src="./images/dishes/Dish2.png" alt=""></div>
+
                 <div class="fast-img"><img src="./images/fast food card.png" alt="fast food"></div>
                 <h2>Get delivered while it is still hot.</h2>
                 <p>Bring together your discussions memberships and content.
@@ -168,7 +179,9 @@
             </div>
         </div>
     </section>
+    <!-- End delivere -->
 
+    <!-- Start popular-menu -->
     <section class="popular-menu posRelative marginSection hide" id="Pmenu ">
         <div class="back-img"><img src="./images/Decore.png" alt=""></div>
         <div class="heading">
@@ -263,7 +276,9 @@
             </div>
         </div>
     </section>
+    <!-- End popular-menu -->
 
+    <!-- Start download-app -->
     <section class="download-app marginSection posRelative hide" id="about">
         <div class="container flex posRelative">
             <div class="phone-img posRelative">
@@ -286,7 +301,9 @@
             </div>
         </div>
     </section>
+    <!-- End download-app -->
 
+    <!-- Start testimonial -->
     <section class="testimonial marginSection hide" id="testimonial">
         <div class="heading">
             <h3>Testimonial</h3>
@@ -332,7 +349,9 @@
             </div>
         </div>
     </section>
+    <!-- End testimonial -->
 
+    <!-- Start footer -->
     <footer class="posRelative hide" id="footer">
         <section class="discount">
             <div class="container">
@@ -398,8 +417,20 @@
                 </div>
             </div>
         </div>
-            <p class="copyRight">©2021 Yannal Resturant</p>
+        <div class="copyRight">
+            <p>Copyright © All Rights Reserved.
+                <br> template by <span> Khaled Ramadan </span>
+            </p>
+            <div class="social">
+                <a href='https://www.facebook.com/khaled14ramadan' target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href='https://www.youtube.com/channel/UCWlgAi4SrmbsKoFGSNpxH2g' target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.linkedin.com/in/khaled-ramadan-978a14168" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Khaled14Ramadan" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+            
+        </div>
     </footer>
+    <!-- Start footer -->
 
     <script src="./js/main.js"></script>
 </body>

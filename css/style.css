@@ -513,6 +513,13 @@ nav .menu span {
     z-index: -1;
 }
 
+.delivere .coffebg.dish {
+    position: absolute;
+    top: 60%;
+    right: 0;
+    z-index: -1;
+}
+
 /* popular-menu */
 .popular-menu .back-img {
     width: 6rem ;
@@ -765,6 +772,20 @@ footer .footer-contant li p {
 
 footer .copyRight{
     text-align: center;
+}
+
+footer .copyRight p {
+    margin: 0;
+}
+
+footer .copyRight .social a {
+    color: var(--white);
+    margin-right: .5rem;
+}
+
+footer .copyRight span,
+footer .copyRight .social a:hover {
+    color: var(--mainColor);
 }
 
 /* discount */

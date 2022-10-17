@@ -97,7 +97,8 @@
         width: 80%;
     }
 
-    .delivere .coffebg  {
+    .delivere .coffebg:not(.dish)  {
+        top: 60%;
         width: 15rem;
         right: 0;
     }

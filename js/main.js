@@ -1,4 +1,5 @@
 let product = document.getElementsByClassName('product');
+let getDelivere = document.getElementsByClassName('coffebg');
 const tap = document.getElementsByClassName('tap')[0];
 const heroSection = document.getElementsByClassName('hero-section')[0];
 let sections = document.getElementsByTagName('section');
@@ -9,6 +10,8 @@ const right = document.getElementById("right");
 const navContant = document.getElementsByClassName('nav-contant')[0];
 
 product= Array.from(product);
+getDelivere= Array.from(getDelivere);
+console.log(getDelivere);
 sections = Array.from(sections);
 
 
@@ -19,6 +22,11 @@ product.forEach((x , i)=>{
     x.addEventListener('click' , ()=>{
         product.forEach((p)=>{p.classList.remove('active')});
         x.classList.add('active');
+
+        // for update the image 
+        getDelivere.forEach((y)=>y.classList.add('hide'));
+        getDelivere[i].classList.remove('hide');
+
         let num_distance= i*20 ;
         tap.style.top = num_distance+ '%';
 
